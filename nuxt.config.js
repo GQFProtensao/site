@@ -5,7 +5,11 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'GQF Protenções e Locações - Empresa especializada de joão pessoa em protensão de vigas e lajes, contrate já!' },
+      { hid: 'og:title', name: 'og:title', content: 'GQF Protensões e Locações' },
+      { hid: 'og:url', name: 'og:url', content: 'https://gqfprotensoes.vercel.app/' },
+      { hid: 'og:descripion', name: 'og:descripion', content: 'Empresa especializada em protensão de vigas e lajes'},
+      { hid: 'og:image', name: 'og:image', content: '//images.pexels.com/photos/175328/pexels-photo-175328.jpeg?auto=compress&cs=tinysrgb&w=1600'},
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
