@@ -5,18 +5,43 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'GQF Protenções e Locações - Empresa especializada de joão pessoa em protensão de vigas e lajes, contrate já!' },
-      { hid: 'og:title', property: 'og:title', content: 'GQF Protensões e Locações' },
-      { hid: 'og:url', property: 'og:url', content: 'https://gqfprotensoes.vercel.app/' },
-      { hid: 'og:descripion', property: 'og:descripion', content: 'Empresa especializada em protensão de vigas e lajes'},
-      { hid: 'og:image', property: 'og:image', content: 'https://images.pexels.com/photos/175328/pexels-photo-175328.jpeg?auto=compress&cs=tinysrgb&w=1600'},
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'GQF Protenções e Locações - Empresa especializada de joão pessoa em protensão de vigas e lajes, contrate já!',
+      },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: 'GQF Protensões e Locações',
+      },
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: 'https://gqfprotensoes.vercel.app/',
+      },
+      {
+        hid: 'og:descripion',
+        property: 'og:descripion',
+        content: 'Empresa especializada em protensão de vigas e lajes',
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content:
+          'https://images.pexels.com/photos/175328/pexels-photo-175328.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      },
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    bodyAttrs: {
+      class: 'font-inter antialiased bg-white text-gray-900 tracking-tight',
+    },
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
+  css: ['@/assets/css/style.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
